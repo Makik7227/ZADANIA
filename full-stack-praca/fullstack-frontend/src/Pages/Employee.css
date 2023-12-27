@@ -1,0 +1,75 @@
+.maindiv {
+    position: fixed;
+    bottom: 10px;
+    top: 0px;
+    right: 0px;
+    width: 1680px;
+    padding-top: 70px;
+    height: 840px;
+    overflow: scroll;
+}
+
+.alterdiv {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 1680px;
+    height: 30px;
+    overflow: initial;
+}
+
+.maindiv2 {
+    position: fixed;
+    bottom: 100px;
+    top: 160px;
+    right: 0px;
+    width: 1680px;
+    padding-top: 60px;
+    height: 720px;
+    background-color: lightgrey;
+}
+
+.condiv {
+    position: fixed;
+    bottom: 100px;
+    top: 60px;
+    right: 0px;
+    width: 1680px;
+    padding-top: 60px;
+    height: 820px;
+    background-color: wheat;
+}
+
+.maindiv3 {
+    position: fixed;
+    bottom: 400px;
+    top: 65px;
+    right: 0px;
+    width: 1680px;
+    padding-top: 60px;
+    height: 820px;
+    background-color: lightgrey;
+    overflow: scroll;
+
+}
+
+.button1 {
+    position: relative;
+    bottom: 20px;
+    right: 0px;
+    width: 840px;
+    height: 700px;
+    backgroundColor: black;
+}
+
+
+.maindiv5 {
+    position: relative;
+    bottom: 200px;
+    top: 0px;
+    right: 0px;
+    width: 1680px;
+    padding-top: 60px;
+    height: 200px;
+    background-color: white;
+}

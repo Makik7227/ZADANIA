@@ -1,0 +1,41 @@
+
+  .pokemon-card {
+
+    &-types {
+      display: inline-grid;
+      gap: 1rem;
+
+      &-type {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0.5rem;
+        gap: 0.4rem;
+
+        &-image {
+          height: 2rem;
+        }
+
+        &-text {
+          font-size: smaller;
+        }
+      }
+    }
+  }
+
+  .move {
+    height: 100%;
+    padding: 2rem;
+    font-size: x-large;
+    background-color: rgba(255, 255, 255, 0.125);
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
